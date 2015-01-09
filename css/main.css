@@ -1,0 +1,81 @@
+
+
+
+/* CSS Document */
+/**************Global styling starts****************/
+body
+{
+	margin:0; 
+	padding:0;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+    background-image: url(../images/b.png);
+}
+
+a:link {color:#333;}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#fd5725;}  /* mouse over link */
+a:active {color:#fd5725;}  /* selected link */
+p
+{
+line-height: 200%;
+}
+*****************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/*---------------------Styling the menubar starts-----------------------*/
+
+#menubar
+{
+}
+
+#menubar img
+{
+	z-index:100;
+	position:fixed;
+}
+
+#menu
+{
+	right:0px;
+	top:3px;
+	position:fixed;
+	z-index:1000;
+}
+
+
+
+#menu li /*Styling the li part of the menu*/
+{
+    float:left;
+	font-size:18px;
+    padding:4px 10px 4px 10px;
+    display:inline-block;
+    position:relative;
+    text-align:center;
+    margin-right:30px;
+    margin-top:7px;
+    border:none;
+    /*color:#CCCCCC;*/
+}
+
+#menu li a /*Styling the link part of the menu li*/
+{
+    text-decoration:none;
+    color:#000;
+    text-shadow:none
+}
+
+#menu li:hover a /*Styling the link part of the menu li in hover state*/
+{
+    color:#000;
+	text-shadow:1px 1px 5px #6FF;
+}
+/*---------------------Styling the menubar ends!------------------------*/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+/*---------------------Styling the home div starts----------------------*/
